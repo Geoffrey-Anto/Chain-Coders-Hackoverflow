@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+
+.container {
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+    font-family: 'Titillium Web', sans-serif;
+	
+}
+
+.myId {
+	margin-right: 3rem;
+	border-radius: 5px;
+
+	background: #c9d6ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.call-button {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.video-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	margin-top: 5rem;
+	margin-left: 0.5rem;
+	border:"1px solid black";
+	gap:15px;
+	flex-wrap:wrap;
+	
+
+	
+}
+
+
+
+.caller {
+	text-align: center;
+	color: #fff;
+}
+
+body {
+	background: #4776e6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #8e54e9, #4776e6); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#8e54e9,
+		#4776e6
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.video__me {
+ width: 30vw;	
+ border: 1px solid blue;
+ 
+}
+.video__me2 {
+	width: 30vw;	
+	border: 1px solid blue;
+   }
+
+   @media only screen and (max-width: 600px){
+	
+	.video__me {
+		width: 60vw;	
+		border: 1px solid blue;
+		
+	   }
+	
+	.video__me2 {
+		width: 60vw;	
+		border: 1px solid blue;
+		
+	   }
+
+
+	.container{
+		display:flex;
+		flex-direction: column;
+		gap:15px;
+		justify-content: center;
+		align-items: center;
+		justify-items: center;
+		font-family: 'Titillium Web', sans-serif;
+	}
+	.myId{
+		width:60vw;
+		padding:2rem;
+		margin-right: 0rem;
+		font-family: 'Titillium Web', sans-serif;
+	}
+}

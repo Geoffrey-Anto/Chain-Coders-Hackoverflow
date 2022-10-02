@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Fjalla+One&family=Kanit&family=Staatliches&display=swap");
+
+.main_div {
+  text-align: center;
+  margin: 3rem auto;
+  width: 80vw;
+  font-family: "Staatliches", cursive;
+  color: rgb(0, 0, 0);
+}
+
+.btn {
+  margin: 0.5rem;
+}
+
+.head_1 {
+  font-size: 3.7rem;
+}
+
+.head_3 {
+  font-size: 1.5rem;
+}
+
+.main_img {
+  width: 30vw;
+  margin: 1rem auto;
+}
+
+@media screen and (max-width: 800px) {
+  .head_1 {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+  }
+  .head_3 {
+    font-size: 2rem;
+  }
+  .main_img {
+    width: 80vw;
+    padding: 0.87rem;
+  }
+  .main_div {
+    color: rgb(0, 0, 0);
+  }
+}
